@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: FastAPI",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "cwd": "${workspaceFolder}/{{cookiecutter.project_name}}",
+            "args": [
+                "{{cookiecutter.project_name}}.main:app",
+                "--reload",
+                "--port",
+                "8000"
+            ],
+            "jinja": true
+        }
+    ]
+}

@@ -1,3 +1,4 @@
 {
-    "project_name": "Example Project Name"
+    "project_name": "example-api",
+    "project_description": "Description of project"
 }
